@@ -16,7 +16,7 @@ const serviceTabs = [
         description:
           "DAP is the industry leader in log stackers for book and commercial printers, capable of handling tabloid, quarter and double-parallel folds at speeds up to 50,000 IPH with customizable bundle sizes.",
         href: "/services/log-stackers",
-        image: "/images/Home/services/card-log-stackers.jpg",
+        image: "/images/Home/services/card-log-stacker.jpg",
         alt: "Log Stackers",
       },
       {
