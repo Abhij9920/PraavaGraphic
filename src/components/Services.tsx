@@ -24,7 +24,7 @@ const serviceTabs = [
         description:
           "Versatile web stackers designed for lower-volume operations, handling all product sizes in tabloid, quarter and double-parallel folds at speeds up to 40,000 IPH with rugged, stable construction.",
         href: "/services/webstackers",
-        image: "/images/Home/services/card-web-stackers.jpg",
+        image: "/images/Home/services/card-web-stacker.jpg",
         alt: "Web Stackers",
       },
       {
@@ -32,7 +32,7 @@ const serviceTabs = [
         description:
           "Custom belt conveyors built to integrate seamlessly with existing folders and stackers, ensuring smooth product flow and reliable transfer throughout the printing line.",
         href: "/services/conveyors",
-        image: "/images/Home/services/card-conveyors.jpg",
+        image: "/images/Home/services/card-conveyor.jpg",
         alt: "Conveyors",
       },
     ],
