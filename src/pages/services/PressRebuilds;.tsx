@@ -77,7 +77,7 @@ const PressRebuilds = () => {
               <div className="aspect-video overflow-hidden rounded">
                 <img 
                   src="/images/press-rebuilds/rebuilds-work.jpg" 
-                  alt="DAP press rebuild and refurbishment work"
+                  alt="Praava Graphics press rebuild and refurbishment work"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -130,7 +130,7 @@ const PressRebuilds = () => {
             Ready to Rebuild Your Press?
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Contact DAP for a comprehensive press assessment and rebuild proposal.
+            Contact Praava Graphics for a comprehensive press assessment and rebuild proposal.
           </p>
           <Link 
             to="/contact"
