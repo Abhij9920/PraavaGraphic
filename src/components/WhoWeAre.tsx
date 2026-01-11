@@ -67,7 +67,7 @@ const WhoWeAre = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          DAP Engineering is a privately owned Indian company providing stackers, conveyors and web-offset press services for printers and publishers across India and internationally.
+          Praava Graphics is a privately owned Indian company providing stackers, conveyors and web-offset press services for printers and publishers across India and internationally.
         </p>
 
         {/* More About Us Link */}
