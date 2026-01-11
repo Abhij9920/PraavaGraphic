@@ -46,7 +46,7 @@ const TechnicalEvaluation = () => {
       <section className="h-[50vh] overflow-hidden">
         <img 
           src="/images/technical-evaluation/evaluation-inspection.jpg" 
-          alt="DAP technical evaluation and press inspection"
+          alt="Praava Graphics technical evaluation and press inspection"
           className="w-full h-full object-cover"
           loading="lazy"
         />
