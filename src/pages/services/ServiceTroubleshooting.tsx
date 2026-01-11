@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import { ArrowRight, Mountain, Droplets, Route, TreePine } from "lucide-react";
 import { Link } from "react-router-dom";
 
-
 const ServiceTroubleshooting = () => {
   return (
     <main className="min-h-screen bg-background">
@@ -38,7 +37,6 @@ const ServiceTroubleshooting = () => {
           </div>
         </div>
       </section>
-
 
       {/* Services Cards */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20" style={{ backgroundColor: '#f5f1eb' }}>
@@ -98,7 +96,6 @@ const ServiceTroubleshooting = () => {
         </div>
       </section>
 
-
       {/* Equipment */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20 bg-foreground">
         <div className="max-w-6xl mx-auto">
@@ -135,7 +132,6 @@ const ServiceTroubleshooting = () => {
         </div>
       </section>
 
-
       {/* CTA */}
       <section className="py-20 px-6 md:px-12 lg:px-20 bg-background">
         <div className="max-w-4xl mx-auto text-center">
@@ -143,7 +139,7 @@ const ServiceTroubleshooting = () => {
             Need Expert Troubleshooting?
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Contact DAP for factory-trained expertise in web-offset press service and optimization.
+            Contact Praava Graphics for factory-trained expertise in web-offset press service and optimization.
           </p>
           <Link 
             to="/contact"
@@ -155,11 +151,9 @@ const ServiceTroubleshooting = () => {
         </div>
       </section>
 
-
       <Footer />
     </main>
   );
 };
-
 
 export default ServiceTroubleshooting;
