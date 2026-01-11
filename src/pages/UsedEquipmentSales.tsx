@@ -135,7 +135,7 @@ const UsedEquipmentSales = () => {
           <div className="flex items-center gap-3 mb-12">
             <span className="text-xs tracking-[0.2em]" style={{ color: 'rgba(255,255,255,0.4)' }}>——</span>
             <span className="text-xs tracking-[0.2em] uppercase" style={{ color: 'rgba(255,255,255,0.9)' }}>
-              Why Choose DAP
+              Why Choose Praava Graphics
             </span>
           </div>
           
@@ -170,7 +170,7 @@ const UsedEquipmentSales = () => {
             </h2>
             
             <p className="text-lg md:text-xl font-light leading-relaxed max-w-2xl" style={{ color: '#666666' }}>
-              DAP Engineering brings decades of hands-on press experience to used equipment sales, offering a service level far beyond typical brokers.
+              Praava Graphics brings decades of hands-on press experience to used equipment sales, offering a service level far beyond typical brokers.
             </p>
           </div>
 
@@ -200,7 +200,7 @@ const UsedEquipmentSales = () => {
                   Professional Assessment
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: '#666666' }}>
-                  Unlike brokers who simply connect buyers and sellers, DAP provides comprehensive technical evaluation and honest condition assessment. Our team's factory training at Heidelberg Harris USA and extensive experience with Harris, GOSS, Komori, and Manugraph presses ensures you get accurate information and realistic performance expectations.
+                  Unlike brokers who simply connect buyers and sellers, Praava Graphics provides comprehensive technical evaluation and honest condition assessment. Our team's factory training at Heidelberg Harris USA and extensive experience with Harris, GOSS, Komori, and Manugraph presses ensures you get accurate information and realistic performance expectations.
                 </p>
               </div>
 
@@ -295,11 +295,11 @@ const UsedEquipmentSales = () => {
 
               <div className="p-8 border-l-4" style={{ backgroundColor: '#f5f1eb', borderColor: '#CE8946' }}>
                 <p className="text-base leading-relaxed italic mb-6" style={{ color: '#666666' }}>
-                  "Unlike typical brokers, DAP stays involved. Their technical knowledge and commitment to customer success sets them apart in the used equipment market."
+                  "Unlike typical brokers, Praava Graphics stays involved. Their technical knowledge and commitment to customer success sets them apart in the used equipment market."
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full flex items-center justify-center text-white font-medium" style={{ backgroundColor: '#CE8946' }}>
-                    D
+                    P
                   </div>
                   <div>
                     <p className="text-sm font-medium" style={{ color: '#1a1a1a' }}>Industry Client</p>
@@ -469,14 +469,14 @@ const UsedEquipmentSales = () => {
           <div className="pt-8 border-t" style={{ borderColor: 'rgba(255,255,255,0.1)' }}>
             <p className="text-sm mb-3" style={{ color: '#666666' }}>Or email us directly</p>
             <a 
-              href="mailto:info@dapepl.com"
+              href="mailto:info@praavagraphics.com"
               className="inline-flex items-center gap-2 transition-colors"
               style={{ color: '#999999' }}
               onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'}
               onMouseLeave={(e) => e.currentTarget.style.color = '#999999'}
             >
               <Mail className="w-4 h-4" />
-              <span className="text-sm">info@dapepl.com</span>
+              <span className="text-sm">info@praavagraphics.com</span>
             </a>
           </div>
         </div>
