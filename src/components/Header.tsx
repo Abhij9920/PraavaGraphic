@@ -31,7 +31,7 @@ const serviceCategories = [
 
 const navLinks = [
   { label: "About", href: "/about" },
-  { label: "Services", href: "/services", hasDropdown: true },
+  { label: "Services", href: "#", hasDropdown: true }, // Changed href to "#" so it doesn't navigate
   { label: "Products", href: "/products" },
   { label: "Used Equipment", href: "/used-equipment-sales" },
   { label: "Distributors", href: "/distributors" },
@@ -84,18 +84,18 @@ const Header = () => {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md py-4 transition-all duration-300">
         <div className="px-4 md:px-8 lg:px-16 xl:px-20 flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo - Updated with Praava Graphics */}
           <Link to="/" className="flex items-center z-50 group cursor-pointer">
             {!logoError ? (
               <img
                 src="/images/Brand/logo-full.png"
-                alt="DAP Praava Graphics"
+                alt="Praava Graphics"
                 className="w-auto object-contain transition-all duration-500 ease-out h-9 md:h-10 group-hover:scale-105"
                 onError={() => setLogoError(true)}
               />
             ) : (
               <span className="text-xl md:text-2xl font-bold tracking-tight px-3 py-1.5 transition-all duration-500 rounded text-white group-hover:scale-105 bg-[#CE8946]">
-                DAP
+                Praava Graphics
               </span>
             )}
           </Link>
@@ -117,7 +117,14 @@ const Header = () => {
               >
                 <Link
                   to={link.href}
-                  onClick={() => handleLinkClick(link.href)}
+                  onClick={(e) => {
+                    // Prevent navigation for Services dropdown
+                    if (link.hasDropdown) {
+                      e.preventDefault();
+                    } else {
+                      handleLinkClick(link.href);
+                    }
+                  }}
                   className={`text-sm font-medium transition-all duration-300 relative group flex items-center gap-1 px-3 py-2 rounded-lg ${activeLink === link.href || (link.hasDropdown && activeLink.startsWith('/services'))
                       ? "text-gray-900 bg-[#CE8946]/10"
                       : "text-gray-700 hover:text-gray-900 hover:bg-gray-50"
