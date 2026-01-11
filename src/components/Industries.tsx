@@ -89,7 +89,7 @@ const Industries = () => {
             transitionDelay: "0.1s",
           }}
         >
-          DAP supports a wide range of printing operations — from high-volume
+          Praava Graphics supports a wide range of printing operations — from high-volume
           newspaper and book production to commercial and packaging environments.
         </p>
 
