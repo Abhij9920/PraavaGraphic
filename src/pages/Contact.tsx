@@ -108,7 +108,7 @@ const Contact = () => {
                 Ready to discuss your<br />
                 printing press requirements?<br />
                 Let's connect and explore<br />
-                how DAP can support<br />
+                how Praava Graphics can support<br />
                 your business.
               </h1>
 
@@ -200,7 +200,7 @@ const Contact = () => {
                   <label htmlFor="privacy" className="text-sm text-muted-foreground">
                     I acknowledge that I have read and accept the{" "}
                     <a href="#" className="text-primary hover:underline">privacy policy</a>
-                    {" "}of DAP Engineering Pvt. Ltd.
+                    {" "}of Praava Graphics.
                   </label>
                 </div>
                 {errors.privacy && (
