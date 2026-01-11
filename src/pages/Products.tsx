@@ -11,8 +11,8 @@ const products = [
     capacity: "Up to 50,000 IPH",
     features: ["Tabloid folds", "Quarter folds", "Double-parallel"],
     image: "/images/products/product-log-stacker-main.png",
-    alt: "DAP Log Stacker machine for high-volume printing operations",
-    href: "/services/log-stackers" // ✅ ADDED
+    alt: "Praava Graphics Log Stacker machine for high-volume printing operations",
+    href: "/services/log-stackers"
   },
   {
     number: "02",
@@ -21,8 +21,8 @@ const products = [
     capacity: "Up to 40,000 IPH",
     features: ["Versatile product handling", "Stable construction", "Lower-volume operations"],
     image: "/images/products/product-web-stacker-main.png",
-    alt: "DAP Web Stacker for versatile printing product handling",
-    href: "/services/webstackers" // ✅ ADDED (or /services/web-stackers if you fixed it)
+    alt: "Praava Graphics Web Stacker for versatile printing product handling",
+    href: "/services/webstackers"
   },
   {
     number: "03",
@@ -31,8 +31,8 @@ const products = [
     capacity: "Custom lengths & widths",
     features: ["Seamless integration", "Reliable transfer", "Custom configurations"],
     image: "/images/products/product-conveyor-main.png",
-    alt: "DAP Belt Conveyor system for seamless material transfer",
-    href: "/services/conveyors" // ✅ ADDED
+    alt: "Praava Graphics Belt Conveyor system for seamless material transfer",
+    href: "/services/conveyors"
   },
 ];
 
@@ -79,7 +79,7 @@ const Products = () => {
           </div>
           
           <p className="text-2xl md:text-3xl font-light text-foreground max-w-2xl leading-relaxed mb-20">
-            DAP is the pioneer in the manufacture of LOG, MINI and COMPENSATING STACKERS in India. Portable and stationary stackers engineered to be the most durable.
+            Praava Graphics is the pioneer in the manufacture of LOG, MINI and COMPENSATING STACKERS in India. Portable and stationary stackers engineered to be the most durable.
           </p>
 
           {/* Products List */}
