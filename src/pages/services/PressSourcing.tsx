@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import { ArrowRight, Cpu, Gauge, Radio, Settings } from "lucide-react";
 import { Link } from "react-router-dom";
 
-
 const PressSourcing = () => {
   return (
     <main className="min-h-screen bg-background">
@@ -60,7 +59,6 @@ const PressSourcing = () => {
         </div>
       </section>
 
-
       {/* Services */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20 bg-background">
         <div className="max-w-6xl mx-auto">
@@ -115,7 +113,6 @@ const PressSourcing = () => {
         </div>
       </section>
 
-
       {/* Certifications */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20" style={{ backgroundColor: '#f5f1eb' }}>
         <div className="max-w-6xl mx-auto">
@@ -144,12 +141,11 @@ const PressSourcing = () => {
         </div>
       </section>
 
-
       {/* Industries */}
       <section className="py-20 px-6 md:px-12 lg:px-20 bg-foreground">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-light text-background mb-12">
-            Why Choose DAP for Press Sourcing
+            Why Choose Praava Graphics for Press Sourcing
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
@@ -182,7 +178,6 @@ const PressSourcing = () => {
         </div>
       </section>
 
-
       {/* CTA */}
       <section className="py-20 px-6 md:px-12 lg:px-20 bg-primary">
         <div className="max-w-4xl mx-auto text-center">
@@ -190,7 +185,7 @@ const PressSourcing = () => {
             Looking for a Used Press?
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8">
-            Contact DAP to discuss your requirements - format, speed, budget and timeline.
+            Contact Praava Graphics to discuss your requirements - format, speed, budget and timeline.
           </p>
           <Link 
             to="/contact"
@@ -202,11 +197,9 @@ const PressSourcing = () => {
         </div>
       </section>
 
-
       <Footer />
     </main>
   );
 };
-
 
 export default PressSourcing;
