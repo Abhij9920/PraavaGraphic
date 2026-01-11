@@ -14,7 +14,7 @@ const serviceTabs = [
       {
         title: "Log Stackers",
         description:
-          "DAP is the industry leader in log stackers for book and commercial printers, capable of handling tabloid, quarter and double-parallel folds at speeds up to 50,000 IPH with customizable bundle sizes.",
+          "Praava Graphics is the industry leader in log stackers for book and commercial printers, capable of handling tabloid, quarter and double-parallel folds at speeds up to 50,000 IPH with customizable bundle sizes.",
         href: "/services/log-stackers",
         image: "/images/Home/services/card-log-stacker.jpg",
         alt: "Log Stackers",
@@ -60,7 +60,7 @@ const serviceTabs = [
       {
         title: "Troubleshooting",
         description:
-          "With over 60 years combined experience and factory training at Heidelberg Harris in the USA, the DAP team provides expert problem-solving and performance optimization for web-offset operations.",
+          "With over 60 years combined experience and factory training at Heidelberg Harris in the USA, the Praava Graphics team provides expert problem-solving and performance optimization for web-offset operations.",
         href: "/services/service-troubleshooting",
         image: "/images/Home/services/card-service-troubleshooting.jpg",
         alt: "Service & Troubleshooting",
@@ -90,7 +90,7 @@ const serviceTabs = [
       {
         title: "After-Sales Support",
         description:
-          "Unlike typical brokers, DAP provides ongoing after-sales service and consultancy to keep used presses productive, including spare parts guidance and troubleshooting.",
+          "Unlike typical brokers, Praava Graphics provides ongoing after-sales service and consultancy to keep used presses productive, including spare parts guidance and troubleshooting.",
         href: "/services/after-sales-support",
         image: "/images/Home/services/card-after-sales.jpg",
         alt: "After Sales Support",
@@ -157,7 +157,7 @@ const Services = () => {
         </div>
 
 
-        {/* DAP DESCRIPTION */}
+        {/* PRAAVA GRAPHICS DESCRIPTION */}
         <p
           className="text-2xl md:text-3xl lg:text-4xl font-light text-foreground max-w-3xl mb-16 leading-relaxed"
           style={{
@@ -167,7 +167,7 @@ const Services = () => {
             transitionDelay: "0.1s",
           }}
         >
-          DAP Engineering provides manufacturing, service and used-equipment
+          Praava Graphics provides manufacturing, service and used-equipment
           solutions for web-offset printers, combining in-house stacker and
           conveyor production with decades of press experience.
         </p>
