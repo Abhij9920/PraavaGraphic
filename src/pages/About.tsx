@@ -220,7 +220,7 @@ const About = () => {
               sectionsVisible['whoweare'] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            DAP Engineering is a privately owned Indian company providing stackers, conveyors and web-offset press services for printers and publishers across India and internationally.
+            Praava Graphics is a privately owned Indian company providing stackers, conveyors and web-offset press services for printers and publishers across India and internationally.
           </p>
 
 
@@ -327,7 +327,7 @@ const About = () => {
                 sectionsVisible['facility'] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              DAP operates from a manufacturing facility in Vasai, Maharashtra, equipped for metal fabrication, machining, assembly and testing of stackers and conveyors.
+              Praava Graphics operates from a manufacturing facility in Vasai, Maharashtra, equipped for metal fabrication, machining, assembly and testing of stackers and conveyors.
             </p>
 
 
@@ -419,7 +419,7 @@ const About = () => {
                   sectionsVisible['qa'] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                 }`}
               >
-                DAP has a dedicated team committed to project controls and comprehensive turnover documentation.
+                Praava Graphics has a dedicated team committed to project controls and comprehensive turnover documentation.
               </p>
               
               <div 
@@ -514,7 +514,7 @@ const About = () => {
             }`}
           >
             <p className="text-xl md:text-2xl lg:text-3xl font-medium leading-relaxed text-foreground max-w-5xl">
-              DAP specializes in high-speed log stackers for commercial and publication printing operations, with systems engineered to handle speeds up to 50,000 impressions per hour and customizable configurations for various press types.
+              Praava Graphics specializes in high-speed log stackers for commercial and publication printing operations, with systems engineered to handle speeds up to 50,000 impressions per hour and customizable configurations for various press types.
             </p>
           </div>
 
@@ -528,7 +528,7 @@ const About = () => {
               }`}
             >
               <h3 className="text-2xl font-semibold text-foreground">
-                DAP maintains comprehensive in-house capabilities:
+                Praava Graphics maintains comprehensive in-house capabilities:
               </h3>
 
 
@@ -592,7 +592,7 @@ const About = () => {
             }`}
           >
             <p className="text-lg md:text-xl font-medium text-foreground mb-4">
-              <strong className="text-primary">Expert Engineering:</strong> DAP employs specialized mechanical and electrical engineers to ensure compliance with industry standards, optimal performance, and production efficiency across all systems.
+              <strong className="text-primary">Expert Engineering:</strong> Praava Graphics employs specialized mechanical and electrical engineers to ensure compliance with industry standards, optimal performance, and production efficiency across all systems.
             </p>
             <p className="text-muted-foreground">
               Our engineering team provides technical support throughout the project lifecycle, from initial design consultation to post-installation optimization.
