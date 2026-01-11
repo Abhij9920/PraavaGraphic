@@ -33,7 +33,7 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "#", hasDropdown: true }, // Changed href to "#" so it doesn't navigate
   { label: "Products", href: "/products" },
-  { label: "Used Equipment-Sales", href: "/used-equipment-sales" },
+  { label: "Used Equipment Sales", href: "/used-equipment-sales" },
   { label: "Distributors", href: "/distributors" },
 ];
 
