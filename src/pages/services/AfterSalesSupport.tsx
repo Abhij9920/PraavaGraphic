@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import { ArrowRight, Clock, Wrench, AlertTriangle, Calendar, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
-
 const AfterSalesSupport = () => {
   return (
     <main className="min-h-screen bg-background">
@@ -17,7 +16,7 @@ const AfterSalesSupport = () => {
             After-Sales<br />Support
           </h1>
           <p className="text-xl text-background/70 max-w-2xl mb-8">
-            Unlike typical brokers, DAP provides ongoing after-sales service and consultancy to keep used presses productive, including spare parts guidance and troubleshooting.
+            Unlike typical brokers, Praava Graphics provides ongoing after-sales service and consultancy to keep used presses productive, including spare parts guidance and troubleshooting.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
@@ -37,7 +36,6 @@ const AfterSalesSupport = () => {
           </div>
         </div>
       </section>
-
 
       {/* Service Types */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20 bg-background">
@@ -103,17 +101,16 @@ const AfterSalesSupport = () => {
         </div>
       </section>
 
-
       {/* Turnaround Support */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20" style={{ backgroundColor: '#f5f1eb' }}>
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-light text-foreground mb-6">
-                Why DAP is Different
+                Why Praava Graphics is Different
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Most used equipment brokers disappear after the sale. At DAP, we stay involved because we have the technical expertise to help you succeed. Our team has 60+ years combined experience and factory training - we understand these presses inside and out.
+                Most used equipment brokers disappear after the sale. At Praava Graphics, we stay involved because we have the technical expertise to help you succeed. Our team has 60+ years combined experience and factory training - we understand these presses inside and out.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[
@@ -136,7 +133,6 @@ const AfterSalesSupport = () => {
           </div>
         </div>
       </section>
-
 
       {/* Response Times */}
       <section className="py-16 px-6 md:px-12 lg:px-20 bg-foreground">
@@ -173,7 +169,7 @@ const AfterSalesSupport = () => {
             Need Support for Your Used Press?
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8">
-            Contact DAP for expert after-sales support that keeps your press productive.
+            Contact Praava Graphics for expert after-sales support that keeps your press productive.
           </p>
           <Link 
             to="/contact"
@@ -185,11 +181,9 @@ const AfterSalesSupport = () => {
         </div>
       </section>
 
-
       <Footer />
     </main>
   );
 };
-
 
 export default AfterSalesSupport;
