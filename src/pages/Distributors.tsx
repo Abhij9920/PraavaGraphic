@@ -67,7 +67,7 @@ const Distributors = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background leading-tight mb-6">
-            Become a DAP Distributor
+            Become a Praava Graphics Distributor
           </h1>
           <p className="text-xl text-background/70 max-w-2xl">
             Partner with India's pioneer in stacker manufacturing and expand your business in the printing press industry.
@@ -80,7 +80,7 @@ const Distributors = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-2 mb-8">
             <span className="text-primary">⟶</span>
-            <span className="text-xs tracking-[0.2em] text-muted-foreground">WHY PARTNER WITH DAP</span>
+            <span className="text-xs tracking-[0.2em] text-muted-foreground">WHY PARTNER WITH PRAVA GRAPHICS</span>
           </div>
           
           <h2 className="text-3xl md:text-4xl font-light text-foreground mb-16 max-w-2xl">
@@ -133,7 +133,7 @@ const Distributors = () => {
                 Distributor Requirements
               </h2>
               <p className="text-background/70 mb-8">
-                We're looking for qualified partners with experience in the printing press industry. As a DAP distributor, you'll receive:
+                We're looking for qualified partners with experience in the printing press industry. As a Praava Graphics distributor, you'll receive:
               </p>
               <ul className="space-y-4 mb-8">
                 {[
@@ -163,7 +163,7 @@ const Distributors = () => {
             <div className="aspect-square overflow-hidden rounded">
               <img 
                 src="/images/distributors/partnership.jpg" 
-                alt="DAP distributor partnership opportunities"
+                alt="Praava Graphics distributor partnership opportunities"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -177,7 +177,7 @@ const Distributors = () => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <h2 className="text-2xl font-medium text-primary-foreground mb-2">
-              Interested in becoming a DAP distributor?
+              Interested in becoming a Praava Graphics distributor?
             </h2>
             <p className="text-primary-foreground/70">Contact us to discuss partnership opportunities in your region.</p>
           </div>
