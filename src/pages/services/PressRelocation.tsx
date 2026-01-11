@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import { ArrowRight, Users, Clock, Shield, BarChart3 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-
 const PressRelocation = () => {
   return (
     <main className="min-h-screen bg-background">
@@ -39,7 +38,6 @@ const PressRelocation = () => {
         </div>
       </section>
 
-
       {/* Key Benefits */}
       <section className="py-20 px-6 md:px-12 lg:px-20 bg-background">
         <div className="max-w-6xl mx-auto">
@@ -59,7 +57,6 @@ const PressRelocation = () => {
           </div>
         </div>
       </section>
-
 
       {/* Services Accordion Style */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20 bg-foreground">
@@ -95,7 +92,6 @@ const PressRelocation = () => {
         </div>
       </section>
 
-
       {/* Industries */}
       <section className="py-20 md:py-32 px-6 md:px-12 lg:px-20" style={{ backgroundColor: '#f5f1eb' }}>
         <div className="max-w-6xl mx-auto">
@@ -124,7 +120,6 @@ const PressRelocation = () => {
         </div>
       </section>
 
-
       {/* CTA */}
       <section className="py-20 px-6 md:px-12 lg:px-20 bg-primary">
         <div className="max-w-4xl mx-auto text-center">
@@ -132,7 +127,7 @@ const PressRelocation = () => {
             Planning a Press Move?
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8">
-            Contact DAP for complete relocation and installation services.
+            Contact Praava Graphics for complete relocation and installation services.
           </p>
           <Link 
             to="/contact"
@@ -144,11 +139,9 @@ const PressRelocation = () => {
         </div>
       </section>
 
-
       <Footer />
     </main>
   );
 };
-
 
 export default PressRelocation;
