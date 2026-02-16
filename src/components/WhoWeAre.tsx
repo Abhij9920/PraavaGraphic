@@ -90,7 +90,7 @@ const WhoWeAre = () => {
             }`}
           >
             <Canvas
-              camera={{ position: [160, 2, 80], fov: 45 }}
+              camera={{ position: [120, 2, 50], fov: 45 }}
               style={{ width: '100%', height: '100%' }}
             >
               <Suspense fallback={<ModelLoader />}>
