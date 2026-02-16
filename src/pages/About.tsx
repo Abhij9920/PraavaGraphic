@@ -360,7 +360,7 @@ const About = () => {
             </div>
             <div className="aspect-[4/3] overflow-hidden rounded-lg">
               <img 
-                src="/images/about/facility-cnc-machining.jpg"
+                src="/images/about/facility-wide-shot.jpeg"
                 alt="CNC machining and precision metal fabrication work"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 loading="lazy"
