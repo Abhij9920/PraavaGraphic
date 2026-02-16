@@ -16,7 +16,7 @@ const serviceCategories = [
     services: [
       { label: "Press Relocation", href: "/services/press-relocation" },
       { label: "Press Rebuilds", href: "/services/press-rebuilds" },
-      { label: "Problem And Troubleshooting", href: "/services/service-troubleshooting" },
+      { label: "Problem & Troubleshooting", href: "/services/service-troubleshooting" },
     ],
   },
   {
