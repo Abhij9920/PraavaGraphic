@@ -104,7 +104,7 @@ const WhoWeAre = () => {
                   enablePan={false}
                   autoRotate={false}
                   minDistance={18}
-                  maxDistance={18}
+                  maxDistance={25}
                   minAzimuthAngle={-0.5}
                   maxAzimuthAngle={0.5}
                   minPolarAngle={1.4}
