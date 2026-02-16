@@ -6,7 +6,7 @@ import ScrollStack, { ScrollStackItem } from "./ScrollStack";
 const projects = [
   {
     number: "01",
-    title: "Log Stacker Program\nfor Book Printer",
+    title: "Log Stacker",
     location: "Vasai, Maharashtra, India",
     industry: "Book & Educational Printing",
     service: "Manufacturing • Custom Log Stackers",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     number: "02",
-    title: "Web-Offset Press Rebuild\nfor Newspaper Plant",
+    title: "Web Stacker",
     location: "Mumbai Region, India",
     industry: "Newspaper & Newsprint",
     service: "Press Relocation • Installation • Rebuild",
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     number: "03",
-    title: "Conveyor & Stacker Line\nfor Commercial Printer",
+    title: "Conveyors",
     location: "Mumbai, Maharashtra, India",
     industry: "Commercial & Packaging Print",
     service: "Conveyor Systems • Compensating Stackers",
