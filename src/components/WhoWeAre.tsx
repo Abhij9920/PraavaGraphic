@@ -12,7 +12,7 @@ const stats = [
 // 3D Model Component - Using object_0.glb (offset printer model)
 function ConveyorModel() {
   const { scene } = useGLTF("/models/object_0.glb");
-  return <primitive object={scene} scale={20} position={[0, 0, 0]} rotation={[0, (360 * Math.PI / 180), 0]} />;
+  return <primitive object={scene} scale={15} position={[0, 0, 0]} rotation={[0, (360 * Math.PI / 180), 0]} />;
 }
 
 // Loading fallback
