@@ -22,7 +22,7 @@ const ServiceTroubleshooting = () => {
           <div className="max-w-xl">
             <span className="inline-block text-primary text-sm tracking-wider mb-6">SERVICE</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              Service & Troubleshooting
+              Problem & Troubleshooting
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
               Expert problem-solving and performance optimization backed by over 60 years combined experience and factory training at Heidelberg Harris in the USA.
